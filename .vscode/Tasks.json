@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "label": "build",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/<Project-Folder-Name-Path>/"
+      },
+      "problemMatcher": "$tsc"
+    }
+  ]
+}
